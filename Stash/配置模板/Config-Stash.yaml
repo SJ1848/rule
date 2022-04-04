@@ -13,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    url: "https://api.v1.mk/sub?target=clash&url=https://api.fuqing.ch/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WD_Trojan&url=https%3A%2F%2Ffuqing.ch%2Fmodules%2Fservers%2Ffuqingsocks%2Fosubscribe.php%3Fsid%3D1623%26token%3DeoRNX9r1kPcB|https://update.glados-config.com/clash/97134/cd3020e/68984/glados.yaml&list=true&udp=true"
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；
     # 或者将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
